@@ -1,0 +1,79 @@
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../7.jpg);
+height: 110vh;
+background-size: 75% 80%;
+background-position: center;
+font-family: Arial Rounded MT;
+}
+
+
+ul{
+  float: right;
+   list-style-type: none;
+    margin-top: 35px;
+    margin-right:20px;
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 10px 20px;
+border: 2px solid #transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+
+ul li.active a{
+        background-color: #fff;
+        color: #000;
+}
+
+.logo img{
+     float: center;
+     width: 200px;
+     height: auto;
+ 
+}
+.upl{
+  max-width: 350px;
+  border-radius: 20px;
+  margin: auto;
+  background: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  padding: 40px;
+  color: #fff;
+  margin-top:100px;
+}
+
+
+h3{
+  text-align: center;
+}
+
+
+input[type=submit]{
+  width= 100;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: #60adde;
+  opacity: 0.7;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+input[type=submit]:hover{
+  background:#003366;
+  opacity: 0.7;
+}
